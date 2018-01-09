@@ -1,0 +1,57 @@
+.logo{
+    align-items: center;
+    display: flex;
+  }
+
+.logo img{
+width: 48px;
+height: 48px;
+}
+
+.logo span{
+font-size: 24px;
+padding-left: 5px;
+}
+
+.footer{
+text-align: center;
+}
+
+.panel {
+  width: auto;
+  margin: 20px 100px 10px;
+}
+
+header{
+  padding: 10px;
+  background-color: #1a90fc;
+}
+
+h2,h4{
+  padding-left: 93px;
+}
+h4{
+  position: absolute;
+  top: 18px;
+  right: 114px;
+}
+.white {
+  color: white;
+}
+.bWhite {
+  background-color: white;
+  margin-top: 20px;
+}
+.ant-table-wrapper{
+  margin-top:20px;
+}
+.ant-table-thead>tr>th,.ant-table-tbody>tr>td{
+  padding: 8px;
+  color: #110f0f;
+}
+.ant-table-thead>tr>th>span{
+  color: #110f0f;
+}
+.row{
+  margin-top:16px;
+}
