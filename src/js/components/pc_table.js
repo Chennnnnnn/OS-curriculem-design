@@ -5,28 +5,6 @@ const { Column, ColumnGroup } = Table;
 data: 列表数据
 */
 
-const column = {
-    name:'进程名',
-    Max:{
-        A:'A',
-        B:'B'
-    },
-    Allocation:{
-        A:'A',
-        B:'B'
-    },
-    Need:{
-        A:'A',
-        B:'B'
-    },
-    Available:{
-        A:'A',
-        B:'B'
-    }
-}
-
-
-
 
 export default class PCTable extends React.Component {
     constructor (props) {

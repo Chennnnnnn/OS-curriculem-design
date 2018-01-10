@@ -1,17 +1,6 @@
 import React from 'react';
 import {List} from 'antd';
 
-//数组结构
-// 给进程A分配资源A：3，b：2，C:3；【成功或失败】
-let d = [{
-    pro:'进程1',
-    state:'成功',
-    resource:{
-        a: 1,
-        b:3,
-        c:4
-    }
-}];
 
 export default class Log extends React.Component {
     constructor(props) {
